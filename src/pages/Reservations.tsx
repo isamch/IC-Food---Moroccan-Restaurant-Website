@@ -79,7 +79,6 @@ const Reservations: React.FC = () => {
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-r from-orange-900 via-amber-800 to-orange-900">
-        <div className="absolute inset-0 bg-black/50"></div>
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -88,11 +87,14 @@ const Reservations: React.FC = () => {
           }}
         ></div>
         
+        {/* Black Layer between background and text */}
+        <div className="absolute inset-0 bg-black/30"></div>
+        
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 drop-shadow-2xl">
             Reserve Your Table
           </h1>
-          <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto drop-shadow-lg font-medium">
             Book your unforgettable dining experience at Dar Lkebir
           </p>
         </div>

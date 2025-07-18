@@ -25,7 +25,6 @@ const Home: React.FC = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-orange-900 via-amber-800 to-orange-900 overflow-hidden">
-        <div className="absolute inset-0 bg-black/40"></div>
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -34,26 +33,29 @@ const Home: React.FC = () => {
           }}
         ></div>
         
+        {/* Black Layer between background and text */}
+        <div className="absolute inset-0 bg-black/30"></div>
+        
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-2xl">
             Welcome to
-            <span className="block bg-gradient-to-r from-orange-400 to-amber-300 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-orange-400 to-amber-300 bg-clip-text text-transparent drop-shadow-lg">
               Dar Lkebir
             </span>
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-2xl mx-auto leading-relaxed drop-shadow-lg font-medium">
             Experience the authentic flavors of Morocco in an elegant atmosphere that will transport you to the heart of Marrakech
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/reservations"
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 to-amber-500 text-white font-semibold rounded-lg hover:from-orange-700 hover:to-amber-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 to-amber-500 text-white font-semibold rounded-lg hover:from-orange-700 hover:to-amber-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl drop-shadow-md"
             >
               Reserve Your Table
             </Link>
             <Link
               to="/menu"
-              className="inline-flex items-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-lg hover:bg-white/20 transition-all duration-300 border border-white/20 hover:border-white/40"
+              className="inline-flex items-center px-8 py-4 bg-white/20 backdrop-blur-sm text-white font-semibold rounded-lg hover:bg-white/30 transition-all duration-300 border border-white/30 hover:border-white/50 drop-shadow-md"
             >
               View Our Menu
             </Link>
@@ -62,7 +64,7 @@ const Home: React.FC = () => {
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-1 h-8 bg-white/50 rounded-full"></div>
+          <div className="w-1 h-8 bg-white/70 rounded-full drop-shadow-md"></div>
         </div>
       </section>
 
