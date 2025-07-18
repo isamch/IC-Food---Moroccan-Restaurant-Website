@@ -23,7 +23,7 @@ const Testimonials: React.FC = () => {
             What Our Guests Say
           </h1>
           <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto drop-shadow-lg font-medium">
-            Read authentic reviews from our valued customers who have experienced the magic of Dar Lkebir
+            Read authentic reviews from our valued customers who have experienced the magic of IC Food
           </p>
         </div>
       </section>
@@ -104,7 +104,7 @@ const Testimonials: React.FC = () => {
           <div className="bg-gradient-to-r from-orange-600 to-amber-500 rounded-2xl p-8 md:p-12 text-white text-center">
             <Quote className="h-12 w-12 text-orange-200 mx-auto mb-6" />
             <blockquote className="text-xl md:text-2xl font-medium mb-6 leading-relaxed">
-              "Dar Lkebir is not just a restaurant, it's a journey to Morocco. The authentic flavors, warm hospitality, and beautiful atmosphere make every visit special. This is our favorite place for celebrating special occasions."
+              "IC Food is not just a restaurant, it's a journey to Morocco. The authentic flavors, warm hospitality, and beautiful atmosphere make every visit special. This is our favorite place for celebrating special occasions."
             </blockquote>
             <div className="flex justify-center mb-4">
               {[...Array(5)].map((_, i) => (

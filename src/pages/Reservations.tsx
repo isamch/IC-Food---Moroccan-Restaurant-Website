@@ -95,7 +95,7 @@ const Reservations: React.FC = () => {
             Reserve Your Table
           </h1>
           <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto drop-shadow-lg font-medium">
-            Book your unforgettable dining experience at Dar Lkebir
+            Book your unforgettable dining experience at IC Food
           </p>
         </div>
       </section>
@@ -290,7 +290,7 @@ const Reservations: React.FC = () => {
                     <Mail className="h-6 w-6 text-amber-200 mt-1" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-amber-100">reservations@darlkebir.com</p>
+                      <p className="text-amber-100">reservations@icfood.com</p>
                     </div>
                   </div>
 

@@ -80,7 +80,7 @@ const About: React.FC = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">The Beginning</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Dar Lkebir was born from a dream to bring the authentic flavors of Morocco to our community. Founded by the Benali family, our restaurant has been serving traditional Moroccan cuisine for over 15 years.
+                IC Food was born from a dream to bring the authentic flavors of Morocco to our community. Founded by the Benali family, our restaurant has been serving traditional Moroccan cuisine for over 15 years.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Our recipes have been passed down through generations, originating from the vibrant markets of Marrakech and the coastal cities of Casablanca. Every dish tells a story of our heritage and passion for authentic flavors.

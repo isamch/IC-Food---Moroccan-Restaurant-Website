@@ -40,7 +40,7 @@ const Home: React.FC = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-2xl">
             Welcome to
             <span className="block bg-gradient-to-r from-orange-400 to-amber-300 bg-clip-text text-transparent drop-shadow-lg">
-              Dar Lkebir
+              IC Food
             </span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-2xl mx-auto leading-relaxed drop-shadow-lg font-medium">
@@ -72,7 +72,7 @@ const Home: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Dar Lkebir?</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose IC Food?</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We bring you the finest Moroccan dining experience with authentic flavors, warm hospitality, and elegant ambiance
             </p>
@@ -170,7 +170,7 @@ const Home: React.FC = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Experience Morocco</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Step into Dar Lkebir and be transported to the vibrant souks of Marrakech. Our restaurant combines authentic Moroccan cuisine with an elegant dining atmosphere, featuring traditional décor, warm lighting, and the aromatic scents of North African spices.
+                Step into IC Food and be transported to the vibrant souks of Marrakech. Our restaurant combines authentic Moroccan cuisine with an elegant dining atmosphere, featuring traditional décor, warm lighting, and the aromatic scents of North African spices.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 <div className="flex items-center space-x-3">

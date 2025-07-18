@@ -27,7 +27,7 @@ const Header: React.FC = () => {
               <Star className="h-6 w-6 text-white" />
             </div>
             <div>
-              <span className="text-2xl font-bold text-gray-900">Dar Lkebir</span>
+              <span className="text-2xl font-bold text-gray-900">IC Food</span>
               <p className="text-xs text-amber-600 -mt-1">Moroccan Restaurant</p>
             </div>
           </Link>
